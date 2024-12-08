@@ -8,7 +8,7 @@ const Books = () => {
   const books = [
     { 
         id: 1, 
-        title: "Baka Sakali 1", 
+        title: "BAKA SAKALI 1", 
         image: require("./images/baka_sakali_1.webp"),
         story: `
           Title: Baka sakali 1
@@ -85,7 +85,7 @@ const Books = () => {
       ,
       {
         id: 2,
-        title: "baka sakali 2",
+        title: "BAKA SAKALI 2",
         image: require("./images/baka_sakali_2.webp"),
         story: `Panimula
       
@@ -220,7 +220,7 @@ const Books = () => {
       ,
       {
         id: 3,
-        title: "baka sakali 3",
+        title: "BAKA SAKALI 3",
         image: require("./images/baka_sakali_3.webp"),
         story: `
       Panimula
@@ -293,7 +293,7 @@ const Books = () => {
       ,
       {
         id: 4,
-        title: "Until Forever",
+        title: "UNTIL FOREVER",
         image: require("./images/until_forever.webp"),
         story: `
           “Bro, wanna play ball?” Kakadating lang ni Azi galing sa kanila.
@@ -428,7 +428,7 @@ const Books = () => {
       ,
       {
         id: 5,
-        title: "Until He Returned",
+        title: "UNTIL HE RETURNED",
         image: require("./images/until_he_returned.webp"),
         story: `
       Simula
@@ -545,7 +545,7 @@ const Books = () => {
       ,
       {
         id: 6, 
-        title: "until he was gone", 
+        title: "UNTIL HE WAS GONE", 
         image: require("./images/until_he_was_gone.webp"),
         story: `
           Simula

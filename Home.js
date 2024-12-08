@@ -39,14 +39,13 @@ const HomeScreen = ({ navigation }) => {
           style={styles.bookSlider}
           showsPagination={false}
           autoplay
-          autoplayTimeout={3}>
+          autoplayTimeout={5}>
           {/* Book 1 */}
           <View style={styles.bookBox}>
-            <Text style={styles.bookName}>THE FOUR BADBOYS AND ME</Text>
-            <Text style={styles.bookAuthor}>By: BLUE_MAIDEN</Text>
+            <Text style={styles.bookName}>BAKA SAKALI 1</Text>
+            <Text style={styles.bookAuthor}>By: Jonaxx Stories</Text>
             <Text style={styles.bookDescription}>
-              Gwapo sila, mayaman, maangas at sikat. Ako? Isa lang akong
-              dakilang nobody, nerd, weird, at forever alone.
+            Ang pag-ibig ay parang nagsusugal. Pag sigurado kang mahal mo ang tao, ibibigay mo ang lahat. Ang problema dito ay di mo alam kung may maibabalik paba sayo o wala. Maswerte ang nakakakuha ng higit pa sa inaasahan, pero luhaan ang mga sumugal at natalo. Pero ganun paman, tulad ng sugal, kahit walang kasiguraduhan, marami paring umiibig, marami paring sumusugal. Dahil… Baka Sakali… Baka Sakali….
             </Text>
             <TouchableOpacity>
               <Text style={styles.readMore}>Read More...</Text>
@@ -55,11 +54,10 @@ const HomeScreen = ({ navigation }) => {
 
           {/* Book 2 */}
           <View style={styles.bookBox}>
-            <Text style={styles.bookName}>ILYsince1892</Text>
-            <Text style={styles.bookAuthor}>By: UndeniablyGorgeous</Text>
+            <Text style={styles.bookName}>UNTIL FOREVER</Text>
+            <Text style={styles.bookAuthor}>By:  Jonaxx Stories</Text>
             <Text style={styles.bookDescription}>
-              Samahan niyo na ang makulit at sobrang epic na adventure ni
-              Carmela sa panahon pa ng Espanyol.
+            Elijah Montefalco never liked this particular girl cousin. Naramdaman niyang ayaw sa kanya ng pinsan niyang ito at hindi naman siya ‘yong tipong ipagpipilitan ang kanyang sarili sa taong ayaw sa kanya. They were family so he needed to deal with her sometimes. Mabuti na nga lang at marami naman sila kaya hindi na napapansin ng iba na ayaw nila sa isa’t-isa. But there was a reason why he never liked her… Pero bakit nga ba? Ano ang nangyari at bakit nagkaganito? Paano sila napunta dito?.
             </Text>
             <TouchableOpacity>
               <Text style={styles.readMore}>Read More...</Text>
@@ -68,11 +66,10 @@ const HomeScreen = ({ navigation }) => {
 
           {/* Book 3 */}
           <View style={styles.bookBox}>
-            <Text style={styles.bookName}>Our Asymptotic Love Story</Text>
-            <Text style={styles.bookAuthor}>By: UndeniablyGorgeous</Text>
+            <Text style={styles.bookName}>UNTIL HE RETURNED</Text>
+            <Text style={styles.bookAuthor}>By:  Jonaxx Stories</Text>
             <Text style={styles.bookDescription}>
-              "A broken heart, a tragic fate, those tears and pain are the
-              consequences of a forbidden love".
+            Nang malaman ni Klare na hindi siya tunay na anak ng kanyang kinilalang ama, nag bago ang ikot ng kanyang mundo. She’s torn between her love for her family and her desire to seek for the fragments of her real identity. Sa kalagitnaan ng lahat ng ito, pilit din siyang binabalikan ng mga alaala ng nakaraan. Her past is haunting her. But she knew it is impossible to turn back the time. Pinanindigan niya ang mga nagawang desisyon noon at tanggap niyang may mga tao na dumadadaan lang ngunit hindi nagtatagal. Ngunit paano naman ang mga umaalis at magbabalik?.
             </Text>
             <TouchableOpacity>
               <Text style={styles.readMore}>Read More...</Text>
@@ -91,7 +88,7 @@ const HomeScreen = ({ navigation }) => {
                 source={require('./images/baka_sakali_1.webp')}
                 style={styles.bookImage}
               />
-              <Text style={styles.bookName}>baka sakali 1</Text>
+              <Text style={styles.bookName}>BAKA SAKALI 1</Text>
             </View>
 
             <View style={styles.bookBox}>
@@ -99,7 +96,7 @@ const HomeScreen = ({ navigation }) => {
                 source={require('./images/baka_sakali_2.webp')}
                 style={styles.bookImage}
               />
-              <Text style={styles.bookName}>baka sakali 2</Text>
+              <Text style={styles.bookName}>BAKA SAKALI 2</Text>
             </View>
 
             <View style={styles.bookBox}>
@@ -107,7 +104,7 @@ const HomeScreen = ({ navigation }) => {
                 source={require('./images/until_he_returned.webp')}
                 style={styles.bookImage}
               />
-              <Text style={styles.bookName}>until he returned</Text>
+              <Text style={styles.bookName}>UNTIL HE RETURNED</Text>
             </View>
           </View>
         </ScrollView>
